@@ -131,14 +131,14 @@ Starting pods might take several minutes. Run `kubectl get services` to view ser
 ![Results](../../../../assets/azure_results.png "Result screenshot.")
 
 <div class="alert note">
-<code>20.81.111.155</code> in the the <code>EXTERNAL-IP</code> column is the IP address of the load balancer. The default Milvus port is <code>19530</code>.
+<code>20.81.111.155</code> in the <code>EXTERNAL-IP</code> column is the IP address of the load balancer. The default Milvus port is <code>19530</code>.
 </div>
 
 ## Using Azure Blob Storage
 
 Azure Blob Storage is Azure's version of AWS Simple Storage Service (S3).
 
-[MinIO Azure Gateway](https://docs.min.io/docs/minio-gateway-for-azure.html) allows accessing Azure. Essentially, MinIO Azure Gateway translates and forwards all connections to Azure by using APIs. You can use MinIO Azure Gateway instead of a MinIO server.
+[MinIO Azure Gateway](https://blog.min.io/gateway-deprecation-implications-for-azure-customers/) allows accessing Azure. Essentially, MinIO Azure Gateway translates and forwards all connections to Azure by using APIs. You can use MinIO Azure Gateway instead of a MinIO server.
 
 ### Set variables
 
